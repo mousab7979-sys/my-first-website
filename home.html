@@ -1,0 +1,78 @@
+<!DOCTYPE>
+<html>
+
+ <style>
+         {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #808080;
+            text-align: center;
+        }
+
+ </style>
+
+<body>
+
+ <div style="background:grey; text-align:center; margin-bottom:10px; margin-top:40px; "><img style="width:33%; background:blue; height:20%;" src="d.png">
+
+ <div style="background:grey; text-align:center; margin-top:20px;">
+  <a style="padding-right:20px; " href="home.html">Home</a>
+  <a style="padding-right:20px; " href="a.html">About</a>
+ </div>
+
+ <h1 style="font-family:arial;">Welcome<br>to<br>my<br>Website</h1>
+
+ <hr style="width:60%;">
+
+ <h1 style="margin-top:50px; text-align:center;">Layers of Internet</h1>
+ 
+ <div class="image-container">
+    <img style="width:40%; height:60%; margin-right:470px; margin-top:40px;" src="sur.png" alt="Image description">
+  <div class="overlay">
+    <a style="font-size:30px; color:black; margin-right:470px;" href="l.html">Surface Web</a>
+  </div>
+ </div>
+
+<div class="image-container">
+    <img style="width:40%; height:60%; margin-right:-470px; margin-top:40px;" src="deep.png" alt="Image description">
+  <div class="overlay">
+    <a style="font-size:30px; color:black; margin-right:-470px;" href="dp.html">Deep Web</a>
+  </div>
+</div>
+<div class="overlay">
+    <img style="width:40%; height:60%; margin-right:470px; margin-top:40px;" src="dao.png" alt="Image description">
+<div class="image-container">
+    <a style="font-size:30px; color:black; margin-right:470px;" href="deepweb.html">Dark Web</a>
+  </div>
+</div>
+
+<script>
+document.querySelectorAll("img").forEach(img => {
+    img.onmouseover = () => img.style.transform = "scale(1.05)";
+    img.onmouseout  = () => img.style.transform = "scale(1)";
+    img.style.transition = "0.3s";
+});
+</script>
+
+
+ 
+<script>
+document.body.style.background =
+"linear-gradient(to bottom, #808080, #6b7280)";
+</script>
+
+
+<script>
+document.querySelectorAll("img").forEach(img => {
+    img.onmouseover = () => img.style.transform = "scale(1.05)";
+    img.onmouseout  = () => img.style.transform = "scale(1)";
+    img.style.transition = "0.3s";
+});
+</script>
+
+<p>Created by Mousab Irfan<br><br></p>
+
+</div>
+</body>
+
+</html>
